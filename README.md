@@ -32,8 +32,3 @@ sudo ./vlan_manager.sh delete
 The script will prompt you for necessary input values such as interface name, IP address, subnet, gateway, and VLAN ID during the create operation. The target network addresses should be provided in a text file with each address on a separate line.
 
 When running the delete operation, the script will use the saved configuration from the previous create operation.
-
-
-## Acknowledgements
-
-This script was inspired by Zach's project the [Live Hosts Identification project](http://10.210.3.10:3000/zpigadas/Live_Hosts_Identification/src/branch/master/seg_test-VERIFONE-ONLY.sh).
